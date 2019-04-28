@@ -15,7 +15,7 @@ function Form(props) {
     "paper/plastic",
     "toiletries",
     "pet care"
-  ]; // kept 'misc' out of array bc sorting alphabetically and want misc at top of list
+  ]; // kept 'choose' and 'misc' out of array bc sorting alphabetically and always want them to show first
 
   return (
     <form>
@@ -52,6 +52,7 @@ function Form(props) {
           className="form-control"
           id="section"
         >
+          <option value="">choose a section of the store</option>
           <option value="misc">misc</option>
           {options.sort().map(option => (
             <option value={option} key={option}>

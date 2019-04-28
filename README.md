@@ -1,3 +1,7 @@
+## Grocery List
+Grocery List is a frontend React app. I bootstrapped this project with Create React App and used Twitter's Bootstrap for minor styling. I used this app to practice passing props around and to see how I like working with Styled Components. Future development will include item grouping by section, full database backend for data persistence, sort, remove and update item functionality and more.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
